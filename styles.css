@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #f4f4f4;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #007BFF;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #eee;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 2rem 1rem;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.gallery-item {
+  text-align: center;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #f4f4f4;
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
