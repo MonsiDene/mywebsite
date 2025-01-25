@@ -138,3 +138,36 @@ footer p {
   transition: 0.3s;
 }
 
+
+/* Stile per la sezione "About" */
+.about {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.about h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  color: #555;
+}
+
+.about p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+
